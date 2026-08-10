@@ -47,7 +47,7 @@ export const products = [
         name: "Verde",
         image: "/images/poedagar-verde.png",
         checkoutUrl:
-          "https://loja.infinitepay.io/jx/1iq9214-poedagar-signature---verde",
+          "https://loja.infinitepay.io/jxx/riq9214-poedagar-signature---verde",
       },
       {
         name: "Azul",
