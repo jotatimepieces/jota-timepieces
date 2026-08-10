@@ -26,14 +26,25 @@ components/
   Hero.js                  Seção inicial de impacto
   ProductGrid.js           Seção "The Collection"
   ProductCard.js            Card de produto no catálogo
-  BuyButton.js               Botão "Comprar Agora"
+  ProductExperience.js       Seletor de cor, imagem, botão de compra e specs
 data/
-  products.js              Catálogo de produtos (edite aqui!)
-  config.js                 Instagram + link de checkout InfinitePay
+  products.js              Catálogo de produtos e variações (edite aqui!)
+  config.js                 Instagram
 public/images/
   logo.png                  Logo da marca
-  poedagar-signature.png     Foto do primeiro relógio
+  poedagar-signature.png     Foto principal do Poedagar Signature
+  poedagar-verde.png         Foto da variação Verde (já usada no checkout ativo)
+  poedagar-azul.png          Foto da variação Azul (adicionar quando tiver)
+  poedagar-preto.png         Foto da variação Preto (adicionar quando tiver)
+  poedagar-branco.png        Foto da variação Branco (adicionar quando tiver)
+  poedagar-verde-rose.png    Foto da variação Verde & Ouro Rosé (adicionar quando tiver)
+  poedagar-azul-rose.png     Foto da variação Azul & Ouro Rosé (adicionar quando tiver)
+  poedagar-preto-rose.png    Foto da variação Preto & Ouro Rosé (adicionar quando tiver)
+  poedagar-branco-rose.png   Foto da variação Branco & Ouro Rosé (adicionar quando tiver)
+  poedagar-dourado.png       Foto da variação Ouro Dourado (adicionar quando tiver)
 ```
+
+> As 8 fotos de variação acima ainda não existem no projeto — só o caminho está preparado. Até você adicionar cada arquivo, a página usa automaticamente a foto principal (`poedagar-signature.png`) como reserva, então nada quebra.
 
 ## Como adicionar um novo relógio
 
@@ -54,15 +65,25 @@ price: "R$ 349,90",
 
 Enquanto `price` estiver vazio (`""`), a página do produto mostra `R$ XXX,XX` como espaço reservado.
 
-## Como ativar o botão "Comprar Agora" (InfinitePay)
+## Como funcionam as variações (cores) do Poedagar Signature
 
-Abra `data/config.js` e cole o link do checkout gerado pela InfinitePay na variável:
+Em `data/products.js`, o produto tem um array `variants`. Cada variação tem três campos:
 
 ```js
-export const INFINITEPAY_CHECKOUT_URL = "https://checkout.infinitepay.io/xxxxxxxx";
+{
+  name: "Verde",
+  image: "/images/poedagar-verde.png",
+  checkoutUrl: "https://loja.infinitepay.io/jx/1iq9214-poedagar-signature---verde",
+}
 ```
 
-Enquanto essa variável estiver vazia, o botão aparece desativado (cinza, sem link). Assim que o link for colocado, o botão passa a redirecionar o cliente diretamente para o checkout, em uma nova aba.
+- **`name`** — aparece no seletor de cor e no rótulo "COR" da página do produto.
+- **`image`** — foto exibida quando essa cor é selecionada. Enquanto o arquivo não existir em `public/images/`, a página usa a foto principal do produto automaticamente.
+- **`checkoutUrl`** — link do checkout da InfinitePay para essa cor específica. Enquanto estiver `""` (vazio), o botão "Comprar Agora" fica desativado só para essa cor — as outras continuam funcionando normalmente.
+
+**Para adicionar uma foto de variação:** salve o arquivo em `public/images/` com o nome exato já configurado (ex: `poedagar-azul.png`) — não precisa alterar nenhum código, a imagem passa a aparecer automaticamente.
+
+**Para ativar o checkout de uma variação:** cole o link da InfinitePay no campo `checkoutUrl` correspondente em `data/products.js`.
 
 ## Como publicar na Vercel
 

@@ -11,18 +11,85 @@
  *      inicial e ganha sua própria página de produto.
  *
  * Nenhuma outra alteração de código é necessária.
+ *
+ * ---------------------------------------------------
+ * SOBRE AS VARIAÇÕES (cores)
+ * ---------------------------------------------------
+ * Cada produto pode ter um array "variants". Cada variação tem:
+ *
+ *   - name        Nome exibido no seletor (ex: "Verde & Ouro Rosé")
+ *   - image       Caminho da foto dessa variação em /public/images/
+ *                 Se o arquivo ainda não existir, o site usa
+ *                 automaticamente a imagem principal do produto
+ *                 (campo "image" do produto) como reserva, para
+ *                 nunca quebrar a página.
+ *   - checkoutUrl Link do checkout da InfinitePay para essa variação.
+ *                 Deixe "" (vazio) enquanto não tiver o link — o botão
+ *                 "Comprar Agora" fica automaticamente desativado para
+ *                 essa variação até você preencher o link aqui.
+ *
+ * Basta colar o link correto no campo checkoutUrl da variação
+ * correspondente para o botão passar a funcionar — nada mais precisa
+ * ser alterado.
  */
 
 export const products = [
   {
     slug: "poedagar-signature",
     name: "Poedagar Signature",
-    // Deixe vazio ("") até definir o preço, ou preencha, ex: "R$ 349,90"
     price: "R$ 199,00",
     image: "/images/poedagar-signature.png",
     imageAlt: "Relógio Poedagar Signature com mostrador verde e pulseira de aço inoxidável",
     shortDescription:
-      "Um design sofisticado e atemporal, desenvolvido para combinar presença e elegância no uso cotidiano.",
+      "Mostrador verde profundo, caixa em aço inoxidável e acabamento que equilibra robustez e discrição.",
+    variants: [
+      {
+        name: "Verde",
+        image: "/images/poedagar-verde.png",
+        checkoutUrl:
+          "https://loja.infinitepay.io/jx/1iq9214-poedagar-signature---verde",
+      },
+      {
+        name: "Azul",
+        image: "/images/poedagar-azul.png",
+        checkoutUrl: "",
+      },
+      {
+        name: "Preto",
+        image: "/images/poedagar-preto.png",
+        checkoutUrl: "",
+      },
+      {
+        name: "Branco",
+        image: "/images/poedagar-branco.png",
+        checkoutUrl: "",
+      },
+      {
+        name: "Verde & Ouro Rosé",
+        image: "/images/poedagar-verde-rose.png",
+        checkoutUrl: "",
+      },
+      {
+        name: "Azul & Ouro Rosé",
+        image: "/images/poedagar-azul-rose.png",
+        checkoutUrl: "",
+      },
+      {
+        name: "Preto & Ouro Rosé",
+        image: "/images/poedagar-preto-rose.png",
+        checkoutUrl: "",
+      },
+      {
+        name: "Branco & Ouro Rosé",
+        image: "/images/poedagar-branco-rose.png",
+        checkoutUrl: "",
+      },
+      {
+        name: "Ouro Dourado",
+        image: "/images/poedagar-dourado.png",
+        checkoutUrl: "",
+      },
+    ],
     specs: [
       { label: "Material da Pulseira", value: "Aço inoxidável (316L)" },
       { label: "Material da Caixa", value: "Aço inoxidável (316L)" },

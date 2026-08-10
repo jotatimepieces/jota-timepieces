@@ -26,6 +26,11 @@ export default function ProductCard({ product }) {
           <p className="mt-1 text-sm text-ink-muted">
             {product.price || "Preço sob consulta"}
           </p>
+          {product.variants && product.variants.length > 1 && (
+            <p className="mt-1.5 text-[10px] uppercase tracking-widest2 text-ink-faint">
+              {product.variants.length} variações
+            </p>
+          )}
         </div>
 
         <span className="btn-ghost mt-2 shrink-0 whitespace-nowrap">
