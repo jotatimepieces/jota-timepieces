@@ -41,7 +41,7 @@ export const products = [
     image: "/images/poedagar-signature.png",
     imageAlt: "Relógio Poedagar Signature com mostrador verde e pulseira de aço inoxidável",
     shortDescription:
-      "Mostrador verde profundo, caixa em aço inoxidável e acabamento que equilibra robustez e discrição.",
+      "Um design sofisticado e atemporal, desenvolvido para combinar presença e elegância no uso cotidiano.",
     variants: [
       {
         name: "Verde",
