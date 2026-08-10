@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #f3efe6;
+  }
+
+  ::selection {
+    background-color: #c8a876;
+    color: #0a0a0a;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Eyebrow label, e.g. "THE COLLECTION" pretext */
+  .eyebrow {
+    @apply text-[11px] uppercase tracking-widest2 text-ink-muted font-body font-medium;
+  }
+
+  /* Signature element: a hairline with a centered watch-marker dot.
+     Used between major sections to echo an hour-marker on a dial. */
+  .marker-divider {
+    position: relative;
+    height: 1px;
+    background-color: #232320;
+    width: 100%;
+  }
+
+  .marker-divider::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 9999px;
+    background-color: #c8a876;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center border border-brass-dim text-ink text-xs uppercase tracking-widest2 font-body font-medium px-8 py-4 transition-colors duration-300 ease-out hover:bg-brass hover:text-bg hover:border-brass;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 text-xs uppercase tracking-widest2 font-body text-ink-muted transition-colors duration-300 ease-out hover:text-brass;
+  }
+
+  .focus-ring {
+    @apply outline-none focus-visible:ring-1 focus-visible:ring-brass focus-visible:ring-offset-2 focus-visible:ring-offset-bg;
+  }
+}
