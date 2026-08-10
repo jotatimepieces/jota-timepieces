@@ -35,8 +35,7 @@ export const products = [
       { label: "Fecho", value: "Fecho oculto com botão de pressão" },
       {
         label: "Resistência à Água",
-        value: "Suporta respingos e uso leve no dia a dia. 
-Não indicado para mergulho.",
+        value: "Suporta respingos e uso leve no dia a dia. Não indicado para mergulho.",
       },
       {
         label: "Funções",
