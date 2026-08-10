@@ -16,4 +16,4 @@ export const INSTAGRAM_HANDLE = "@jotatimepieces";
  * Exemplo:
  * export const INFINITEPAY_CHECKOUT_URL = "https://checkout.infinitepay.io/xxxxxxxx";
  */
-export const INFINITEPAY_CHECKOUT_URL = "";
+export const INFINITEPAY_CHECKOUT_URL = "https://loja.infinitepay.io/jxx/riq9214-poedagar-signature---verde";
