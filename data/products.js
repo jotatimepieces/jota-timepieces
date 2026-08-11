@@ -52,42 +52,42 @@ export const products = [
       {
         name: "Azul",
         image: "/images/poedagar-azul.png",
-        checkoutUrl: "",
+        checkoutUrl: "https://loja.infinitepay.io/jxx/bgr1068-poedagar-signature---azul",
       },
       {
         name: "Preto",
         image: "/images/poedagar-preto.png",
-        checkoutUrl: "",
+        checkoutUrl: "https://loja.infinitepay.io/jxx/oii1208-poedagar-signature---preto",
       },
       {
         name: "Branco",
         image: "/images/poedagar-branco.png",
-        checkoutUrl: "",
+        checkoutUrl: "https://loja.infinitepay.io/jxx/lev7589-poedagar-signature",
       },
       {
         name: "Verde & Ouro Rosé",
         image: "/images/poedagar-verde-rose.png",
-        checkoutUrl: "",
+        checkoutUrl: "https://loja.infinitepay.io/jxx/usg8902-poedagar-signature---verde-e-ouro-rose",
       },
       {
         name: "Azul & Ouro Rosé",
         image: "/images/poedagar-azul-rose.png",
-        checkoutUrl: "",
+        checkoutUrl: "https://loja.infinitepay.io/jxx/slq4608-poedagar-signature---azul-e-ouro-rose",
       },
       {
         name: "Preto & Ouro Rosé",
         image: "/images/poedagar-preto-rose.png",
-        checkoutUrl: "",
+        checkoutUrl: "https://loja.infinitepay.io/jxx/cun6566-poedagar-signature---preto-e-ouro-rose",
       },
       {
         name: "Branco & Ouro Rosé",
         image: "/images/poedagar-branco-rose.png",
-        checkoutUrl: "",
+        checkoutUrl: "https://loja.infinitepay.io/jxx/bfs6953-poedagar-signature---branco-e-ouro-rose",
       },
       {
-        name: "Ouro Dourado",
+        name: "Ouro",
         image: "/images/poedagar-dourado.png",
-        checkoutUrl: "",
+        checkoutUrl: "https://loja.infinitepay.io/jxx/xsy5530-poedagar-signature---ouro",
       },
     ],
     specs: [
