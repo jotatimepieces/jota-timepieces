@@ -110,6 +110,123 @@ export const products = [
       },
     ],
   },
+
+{
+  slug: "poedagar-diamond",
+  name: "Poedagar Diamond",
+  price: "R$ 249,00",
+  image: "/images/poedagar-diamond-tiffany.png",
+  imageAlt:
+    "Relógio Poedagar Diamond na cor Tiffany com caixa e pulseira em aço inoxidável",
+  shortDescription:
+    "Design marcante e sofisticado, com acabamento contemporâneo e detalhes que elevam a presença do relógio no pulso.",
+
+  variants: [
+    {
+      name: "Tiffany",
+      image: "/images/poedagar-diamond-tiffany.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-diamond-branco.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-diamond-preto.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul",
+      image: "/images/poedagar-diamond-azul.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "All Black",
+      image: "/images/poedagar-diamond-all-black.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "All Blue",
+      image: "/images/poedagar-diamond-all-blue.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Ouro",
+      image: "/images/poedagar-diamond-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Branco & Ouro",
+      image: "/images/poedagar-diamond-branco-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto & Ouro",
+      image: "/images/poedagar-diamond-preto-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Tiffany & Ouro",
+      image: "/images/poedagar-diamond-tiffany-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul & Ouro",
+      image: "/images/poedagar-diamond-azul-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Verde & Ouro",
+      image: "/images/poedagar-diamond-verde-ouro.png",
+      checkoutUrl: "",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Movimento",
+      value: "Quartzo",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material do Visor",
+      value: "Hardlex (alta resistência a riscos)",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "40mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "11mm",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "26mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "22cm (ajustável)",
+    },
+    {
+      label: "Resistência à Água",
+      value: "3Bar (30 metros)",
+    },
+    {
+      label: "Funções",
+      value: "Cronógrafo, ponteiros luminosos e data automática",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
