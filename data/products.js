@@ -227,6 +227,102 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-yacht",
+  name: "Poedagar Yacht",
+  price: "R$ 199,00",
+  image: "/images/poedagar-yacht-preto.png",
+  imageAlt:
+    "Relógio Poedagar Yacht na cor preta com caixa em aço inoxidável",
+  shortDescription: "",
+
+  variants: [
+    {
+      name: "Preto",
+      image: "/images/poedagar-yacht-preto.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-yacht-branco.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul",
+      image: "/images/poedagar-yacht-azul.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul & Ouro",
+      image: "/images/poedagar-yacht-azul-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Ouro & Prata",
+      image: "/images/poedagar-yacht-ouro-prata.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto & Ouro Rosé",
+      image: "/images/poedagar-yacht-preto-rose.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Castanho & Ouro Rosé",
+      image: "/images/poedagar-yacht-castanho-rose.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto & Ouro Rosé — Pulseira de Borracha",
+      image: "/images/poedagar-yacht-preto-rose-borracha.png",
+      checkoutUrl: "",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável / opção em borracha (Full Black)",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Marcador de Data",
+      value: "Dia do mês",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro Hardlex (resistente a arranhões e impactos)",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "43mm",
+    },
+    {
+      label: "Resistência à Água",
+      value: "30ATM – à prova d’água até 30 metros",
+    },
+    {
+      label: "Ponteiros",
+      value: "Luminosos (visibilidade em baixa luz)",
+    },
+    {
+      label: "Movimento",
+      value: "Alta precisão",
+    },
+    {
+      label: "Fecho",
+      value: "Bracelete com fecho oculto",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "21cm (ajustável)",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
