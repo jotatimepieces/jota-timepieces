@@ -283,7 +283,7 @@ export const products = [
   specs: [
     {
       label: "Material da Pulseira",
-      value: "Aço inoxidável / opção em borracha (Full Black)",
+      value: "Aço inoxidável / Opção em borracha (Full Black)",
     },
     {
       label: "Material da Caixa",
