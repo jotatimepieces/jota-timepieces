@@ -241,42 +241,42 @@ export const products = [
     {
       name: "Preto",
       image: "/images/poedagar-yacht-preto.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/fsn7956-poedagar-yacht---preto",
     },
     {
       name: "Branco",
       image: "/images/poedagar-yacht-branco.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/tvx7745-poedagar-yacht---branco",
     },
     {
       name: "Azul",
       image: "/images/poedagar-yacht-azul.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/huj8635-poedagar-yacht---azul",
     },
     {
       name: "Azul & Ouro",
       image: "/images/poedagar-yacht-azul-ouro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/tyh2278-poedagar-yacht---azul-e-ouro",
     },
     {
       name: "Ouro & Prata",
       image: "/images/poedagar-yacht-ouro-prata.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/mbu5064-poedagar-yacht---ouro-e-prata",
     },
     {
       name: "Preto & Ouro Rosé",
       image: "/images/poedagar-yacht-preto-rose.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/hbf7645-poedagar-yacht---preto-e-ouro-rose",
     },
     {
       name: "Castanho & Ouro Rosé",
       image: "/images/poedagar-yacht-castanho-rose.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/mob2948-poedagar-yacht---castanho-e-ouro-rose",
     },
     {
       name: "Preto & Ouro Rosé — Pulseira de Borracha",
       image: "/images/poedagar-yacht-preto-rose-borracha.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/ptk7739-poedagar-yacht---preto-e-ouro-rose-pulseir",
     },
   ],
 
