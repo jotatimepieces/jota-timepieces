@@ -235,7 +235,7 @@ export const products = [
   image: "/images/poedagar-yacht-preto.png",
   imageAlt:
     "Relógio Poedagar Yacht na cor preta com caixa em aço inoxidável",
-  shortDescription: "",
+  shortDescription: "Um design marcante e sofisticado, inspirado no espírito de liberdade e movimento.",
 
   variants: [
     {
@@ -320,6 +320,84 @@ export const products = [
     {
       label: "Comprimento da Pulseira",
       value: "21cm (ajustável)",
+    },
+  ],
+},
+
+{
+  slug: "poedagar-montecarlo",
+  name: "Poedagar Montecarlo",
+  price: "R$ 249,00",
+  image: "/images/poedagar-montecarlo-bege.png",
+  imageAlt:
+    "Relógio Poedagar Montecarlo na cor bege com pulseira de couro e caixa em aço inoxidável",
+  shortDescription: "Um design clássico e refinado, com pulseira de couro e detalhes que traduzem elegância atemporal.",
+
+  variants: [
+    {
+      name: "Bege",
+      image: "/images/poedagar-montecarlo-bege.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/krp6602-poedagar-montecarlo---bege",
+    },
+    {
+      name: "Azul",
+      image: "/images/poedagar-montecarlo-azul.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/cfi9918-poedagar-montecarlo---azul",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-montecarlo-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/tqt8661-poedagar-montecarlo---preto",
+    },
+    {
+      name: "Verde",
+      image: "/images/poedagar-montecarlo-verde.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/bnp8327-poedagar-montecarlo---verde",
+    },
+    {
+      name: "Preto, Dourado & Marrom",
+      image: "/images/poedagar-montecarlo-preto-dourado-marrom.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/ccs6267-poedagar-montecarlo---preto-dourado-e-marr",
+    },
+    {
+      name: "All Black",
+      image: "/images/poedagar-montecarlo-all-black.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/rkr4424-poedagar-montecarlo---all-black",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Couro",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo de alta precisão",
+    },
+    {
+      label: "Funções de Data",
+      value: "Sim (dia do mês)",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro Hardlex resistente a riscos e impactos",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "42mm",
+    },
+    {
+      label: "Resistência à Água",
+      value: "3 Bar — à prova d’água até 30 metros",
+    },
+    {
+      label: "Ponteiros",
+      value: "Luminosos para leitura em ambientes com pouca luz",
     },
   ],
 },
