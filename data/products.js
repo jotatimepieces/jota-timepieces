@@ -405,7 +405,7 @@ export const products = [
 {
   slug: "poedagar-roma",
   name: "Poedagar Roma",
-  price: "",
+  price: "R$ 249,00",
   image: "/images/poedagar-roma.png",
   imageAlt:
     "Relógio Poedagar Roma All Black com mostrador preto, numerais romanos e pulseira de couro",
