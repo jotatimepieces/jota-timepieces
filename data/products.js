@@ -401,6 +401,101 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-roma",
+  name: "Poedagar Roma",
+  price: "",
+  image: "/images/poedagar-roma.png",
+  imageAlt:
+    "Relógio Poedagar Roma All Black com mostrador preto, numerais romanos e pulseira de couro",
+  shortDescription:
+    "Um design clássico e imponente, marcado por numerais romanos e detalhes que traduzem elegância atemporal.",
+
+  variants: [
+    {
+      name: "All Black",
+      image: "/images/poedagar-roma.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/qqu8247-poedagar-roma---all-black",
+    },
+    {
+      name: "Preto & Prata",
+      image: "/images/poedagar-roma-preto-prata.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/bin2528-poedagar-roma---preto-e-prata",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-roma-branco.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/pvs6816-poedagar-roma---branco",
+    },
+    {
+      name: "Preto & Ouro Rosé",
+      image: "/images/poedagar-roma-preto-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/ael1468-poedagar-roma---preto-e-ouro-rose",
+    },
+    {
+      name: "Branco & Ouro Rosé",
+      image: "/images/poedagar-roma-branco-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/efs7254-poedagar-roma---branco-e-ouro-rose",
+    },
+    {
+      name: "Cáqui & Ouro Rosé",
+      image: "/images/poedagar-roma-caqui-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/pmy9325-poedagar-roma---caqui-e-ouro-rose",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Couro",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo",
+    },
+    {
+      label: "Funções de Data",
+      value: "Sim (dia do mês)",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro de alta dureza",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "40mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "12mm",
+    },
+    {
+      label: "Largura da Caixa",
+      value: "20mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "24cm",
+    },
+    {
+      label: "Resistência à Água",
+      value: "30 metros",
+    },
+    {
+      label: "Ponteiros",
+      value: "Luminosos para leitura em ambientes com pouca luz",
+    },
+    {
+      label: "Peso",
+      value: "68g",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
