@@ -511,22 +511,22 @@ export const products = [
     {
       name: "Ouro Rosé",
       image: "/images/poedagar-dayhero.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/oid1692-poedagar-dayhero---ouro-rose",
     },
     {
       name: "Panda",
       image: "/images/poedagar-dayhero-panda.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/max6101-poedagar-dayhero---panda",
     },
     {
       name: "Preto & Ouro Rosé",
       image: "/images/poedagar-dayhero-preto-rose.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/iil9324-poedagar-dayhero---preto-e-ouro-rose",
     },
     {
       name: "Preto",
       image: "/images/poedagar-dayhero-preto.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/lla8301-poedagar-dayhero---preto",
     },
   ],
 
