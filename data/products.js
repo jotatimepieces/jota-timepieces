@@ -496,6 +496,83 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-dayhero",
+  name: "Poedagar Dayhero",
+  price: "R$ 219,00",
+  image: "/images/poedagar-dayhero.png",
+  imageAlt:
+    "Relógio Poedagar Dayhero em Ouro Rosé com pulseira de silicone preta e mostrador cronógrafo",
+  shortDescription:
+    "Um design esportivo e sofisticado, combinando presença marcante e detalhes precisos para o dia a dia.",
+
+  variants: [
+    {
+      name: "Ouro Rosé",
+      image: "/images/poedagar-dayhero.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Panda",
+      image: "/images/poedagar-dayhero-panda.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto & Ouro Rosé",
+      image: "/images/poedagar-dayhero-preto-rose.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-dayhero-preto.png",
+      checkoutUrl: "",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Silicone",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Movimento",
+      value: "Movimento original",
+    },
+    {
+      label: "Funções",
+      value: "Data e horário",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "42mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "10mm",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "20mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "21cm",
+    },
+    {
+      label: "Resistência à Água",
+      value: "30 metros",
+    },
+    {
+      label: "Fecho",
+      value: "Fivela",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
