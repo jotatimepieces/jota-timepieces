@@ -573,6 +573,81 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-v12",
+  name: "Poedagar V12",
+  price: "R$ 399,00",
+  image: "/images/poedagar-v12-vermelho.png",
+  imageAlt: "Relógio Poedagar V12 vermelho com design esportivo e marcante",
+  shortDescription:
+    "Design esportivo e marcante, inspirado na estética de alta performance.",
+  variants: [
+    {
+      name: "Vermelho",
+      image: "/images/poedagar-v12-vermelho.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/hsw4405-poedagar-v12---vermelho",
+    },
+    {
+      name: "All Black",
+      image: "/images/poedagar-v12-all-black.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/yjf5307-poedagar-v12---all-black",
+    },
+    {
+      name: "Verde",
+      image: "/images/poedagar-v12-verde.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/tdg5527-poedagar-v12---verde",
+    },
+    {
+      name: "Azul",
+      image: "/images/poedagar-v12-azul.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/pdo1270-poedagar-v12---azul",
+    },
+    {
+      name: "Laranja",
+      image: "/images/poedagar-v12-laranja.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/tbw9835-poedagar-v12---laranja",
+    },
+  ],
+  specs: [
+    {
+      label: "Material do Visor",
+      value: "Hardlex",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo",
+    },
+    {
+      label: "Material da Pulseira",
+      value: "Silicone",
+    },
+    {
+      label: "Resistência à Água",
+      value: "3ATM",
+    },
+    {
+      label: "Diâmetro do Mostrador",
+      value: "51mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "17mm",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "22mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "23cm",
+    },
+    {
+      label: "Peso",
+      value: "155g",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
