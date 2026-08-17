@@ -648,6 +648,83 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-maverick",
+  name: "Poedagar Maverick",
+  price: "R$ 279,00",
+  image: "/images/poedagar-maverick.png",
+  imageAlt:
+    "Relógio Poedagar Maverick Azul Menta com caixa e pulseira em aço inoxidável",
+  shortDescription:
+    "Um design contemporâneo e sofisticado, com presença marcante e acabamento que equilibra elegância e personalidade.",
+
+  variants: [
+    {
+      name: "Azul Menta",
+      image: "/images/poedagar-maverick.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/lmp8825-poedagar-maverick---azul-menta",
+    },
+    {
+      name: "Azul Marinho",
+      image: "/images/poedagar-maverick-azul-marinho.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/cjm7480-poedagar-maverick---azul-marinho",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-maverick-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/hgx4459-poedagar-maverick---preto",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-maverick-branco.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/rdx4509-poedagar-maverick---branco",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro Hardlex",
+    },
+    {
+      label: "Diâmetro do Visor",
+      value: "42mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "12mm",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo",
+    },
+    {
+      label: "Resistência à Água",
+      value: "3 ATM — resistente a respingos leves, suor e chuva.",
+    },
+    {
+      label: "Fecho",
+      value: "Fecho oculto com botão de pressão",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "22cm (ajustável)",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "20–24mm",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
