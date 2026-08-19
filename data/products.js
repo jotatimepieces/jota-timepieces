@@ -725,6 +725,89 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-marine",
+  name: "Poedagar Marine",
+  price: "R$ 249,00",
+  image: "/images/poedagar-marine.png",
+  imageAlt:
+    "Relógio Poedagar Marine azul com caixa e pulseira em aço inoxidável",
+  shortDescription:
+    "Precisão, presença e espírito esportivo em um design inspirado no universo náutico.",
+
+  variants: [
+    {
+      name: "Azul",
+      image: "/images/poedagar-marine.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/dkm9742-poedagar-marine---azul",
+    },
+    {
+      name: "Azul & Ouro",
+      image: "/images/poedagar-marine-azul-ouro.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/omy4931-poedagar-marine---azul-e-ouro",
+    },
+    {
+      name: "Verde",
+      image: "/images/poedagar-marine-verde.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/agi9388-poedagar-marine---verde",
+    },
+    {
+      name: "Prata",
+      image: "/images/poedagar-marine-prata.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/bnn9015-poedagar-marine---prata",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo",
+    },
+    {
+      label: "Material do Visor",
+      value: "Hardlex de alta resistência",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "42,5mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "13mm",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "22mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "23cm",
+    },
+    {
+      label: "Fecho",
+      value: "Oculto com botão de pressão",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — resistente a respingos e chuva leve. Não indicado para mergulho.",
+    },
+    {
+      label: "Funções",
+      value:
+        "Cronógrafo funcional, calendário automático, exibição 24 horas e ponteiros luminosos.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
