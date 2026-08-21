@@ -808,6 +808,93 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-latittude",
+  name: "Poedagar Latittude",
+  price: "R$ 199,00",
+  image: "/images/poedagar-latittude.png",
+  imageAlt:
+    "Relógio Poedagar Latittude azul com pulseira de couro premium e caixa em aço inoxidável",
+  shortDescription:
+    "Um design clássico e sofisticado, combinando detalhes esportivos com a elegância atemporal do couro.",
+
+  variants: [
+    {
+      name: "Azul",
+      image: "/images/poedagar-latittude.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/mua9724-poedagar-latittude---azul",
+    },
+    {
+      name: "Verde & Preto",
+      image: "/images/poedagar-latittude-verde-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/tcq6906-poedagar-latittude---verde-e-preto",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-latittude-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/abk8695-poedagar-latittude---preto",
+    },
+    {
+      name: "All Black",
+      image: "/images/poedagar-latittude-all-black.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/jiq6967-poedagar-latittude---all-black",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Couro premium",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Formato da Caixa",
+      value: "Redondo",
+    },
+    {
+      label: "Material do Visor",
+      value: "Hardlex resistente a riscos",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "41mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "12mm",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo de alta precisão",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "21mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "22cm",
+    },
+    {
+      label: "Fecho",
+      value: "Fivela clássica",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — resistente a respingos, chuva leve e uso diário. Não indicado para mergulho.",
+    },
+    {
+      label: "Funções",
+      value:
+        "Cronógrafo funcional, data automática, display 24 horas, ponteiros luminosos e taquímetro no aro.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
