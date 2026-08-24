@@ -895,6 +895,107 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-royalking",
+  name: "Poedagar RoyalKing",
+  price: "R$ 229,00",
+  image: "/images/poedagar-royalking.png",
+  imageAlt:
+    "Relógio Poedagar RoyalKing azul com pulseira e caixa em aço inoxidável",
+  shortDescription:
+    "Um design sofisticado e imponente, pensado para unir presença, precisão e elegância em cada detalhe.",
+
+  variants: [
+    {
+      name: "Azul",
+      image: "/images/poedagar-royalking.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/kjr1832-poedagar-royalking---azul",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-royalking-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/ocw1457-poedagar-royalking---preto",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-royalking-branco.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/tpi1207-poedagar-royalking---branco",
+    },
+    {
+      name: "Azul & Ouro Rosé",
+      image: "/images/poedagar-royalking-azul-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/lrm7283-poedagar-royalking---azul-e-ouro-rose",
+    },
+    {
+      name: "Preto & Ouro Rosé",
+      image: "/images/poedagar-royalking-preto-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/xxf8083-poedagar-royalking---preto-e-ouro-rose",
+    },
+    {
+      name: "Branco & Ouro Rosé",
+      image: "/images/poedagar-royalking-branco-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/kkm6161-poedagar-royalking---branco-e-ouro-rose",
+    },
+    {
+      name: "All Black",
+      image: "/images/poedagar-royalking-all-black.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/bjs5235-poedagar-royalking---all-black",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Formato da Caixa",
+      value: "Redondo",
+    },
+    {
+      label: "Material do Visor",
+      value: "Hardlex resistente a riscos",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "42mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "11mm",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo de alta precisão",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "24mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "22cm",
+    },
+    {
+      label: "Fecho",
+      value: "Oculto com botão de pressão",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — resistente a respingos, chuva leve e uso diário. Não indicado para mergulho.",
+    },
+    {
+      label: "Funções",
+      value: "Data automática e ponteiros luminosos.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
