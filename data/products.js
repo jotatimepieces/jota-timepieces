@@ -996,6 +996,114 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-fortier",
+  name: "Poedagar Fortier",
+  price: "",
+  image: "/images/poedagar-fortier.png",
+  imageAlt:
+    "Relógio Poedagar Fortier preto e prata com pulseira de aço inoxidável",
+  shortDescription:
+    "Um design marcante que combina precisão mecânica, detalhes sofisticados e presença atemporal.",
+
+  variants: [
+    {
+      name: "Preto & Prata",
+      image: "/images/poedagar-fortier.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto & Prata — Couro",
+      image: "/images/poedagar-fortier-preto-prata-couro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Vermelho & Ouro Rosé",
+      image: "/images/poedagar-fortier-vermelho-rose.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Vermelho & Ouro Rosé — Couro",
+      image: "/images/poedagar-fortier-vermelho-rose-couro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul & Ouro Rosé",
+      image: "/images/poedagar-fortier-azul-rose.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul & Ouro Rosé — Couro",
+      image: "/images/poedagar-fortier-azul-rose-couro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul & Preto",
+      image: "/images/poedagar-fortier-azul-preto.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul & Preto — Couro",
+      image: "/images/poedagar-fortier-azul-preto-couro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Ouro & Prata",
+      image: "/images/poedagar-fortier-ouro-prata.png",
+      checkoutUrl: "",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável ou couro, conforme a variação",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material do Visor",
+      value: "Cristal de safira",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "43mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "17mm",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "21mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "20cm (ajustável)",
+    },
+    {
+      label: "Movimento",
+      value: "Automático",
+    },
+    {
+      label: "Fecho",
+      value: "Fecho com botão oculto",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — resistente à água para uso cotidiano. Não indicado para mergulho.",
+    },
+    {
+      label: "Funções",
+      value:
+        "Ponteiros luminosos, data automática, calendário completo, exibição de 24 horas e indicador de dia e noite.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
