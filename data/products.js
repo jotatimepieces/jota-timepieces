@@ -1000,7 +1000,7 @@ export const products = [
 {
   slug: "poedagar-fortier",
   name: "Poedagar Fortier",
-  price: "",
+  price: "R$ 349,00",
   image: "/images/poedagar-fortier.png",
   imageAlt:
     "Relógio Poedagar Fortier preto e prata com pulseira de aço inoxidável",
@@ -1011,47 +1011,47 @@ export const products = [
     {
       name: "Preto & Prata",
       image: "/images/poedagar-fortier.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/las7351-poedagar-fortier---preto-e-prata",
     },
     {
       name: "Preto & Prata — Couro",
       image: "/images/poedagar-fortier-preto-prata-couro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/djk4644-poedagar-fortier---preto-e-prata-couro",
     },
     {
       name: "Vermelho & Ouro Rosé",
       image: "/images/poedagar-fortier-vermelho-rose.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/nli5465-poedagar-fortier---vermelho-e-ouro-rose",
     },
     {
       name: "Vermelho & Ouro Rosé — Couro",
       image: "/images/poedagar-fortier-vermelho-rose-couro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/fcw2313-poedagar-fortier---vermelho-e-ouro-rose-co",
     },
     {
       name: "Azul & Ouro Rosé",
       image: "/images/poedagar-fortier-azul-rose.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/mgb5042-poedagar-fortier---azul-e-ouro-rose",
     },
     {
       name: "Azul & Ouro Rosé — Couro",
       image: "/images/poedagar-fortier-azul-rose-couro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/bft1185-poedagar-fortier---azul-e-ouro-rose-couro",
     },
     {
       name: "Azul & Preto",
       image: "/images/poedagar-fortier-azul-preto.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/xus8747-poedagar-fortier---azul-e-preto",
     },
     {
       name: "Azul & Preto — Couro",
       image: "/images/poedagar-fortier-azul-preto-couro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/fqh4992-poedagar-fortier---azul-e-preto-couro",
     },
     {
       name: "Ouro & Prata",
       image: "/images/poedagar-fortier-ouro-prata.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/fnr7909-poedagar-fortier---ouro-e-prata",
     },
   ],
 
