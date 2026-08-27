@@ -1104,6 +1104,107 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-prestige",
+  name: "Poedagar Prestige",
+  price: "R$ 249,00",
+  image: "/images/poedagar-prestige-branco-ouro-prata.png",
+  imageAlt:
+    "Relógio Poedagar Prestige branco, ouro e prata com pulseira de aço",
+  shortDescription:
+    "Um design imponente e sofisticado, criado para unir presença, precisão e elegância em cada detalhe.",
+
+  variants: [
+    {
+      name: "Branco, Ouro & Prata",
+      image: "/images/poedagar-prestige-branco-ouro-prata.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/uog2000-poedagar-prestige---branco-ouro-e-prata",
+    },
+    {
+      name: "Azul, Ouro & Prata",
+      image: "/images/poedagar-prestige-azul-ouro-prata.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/dxv4466-poedagar-prestige---azul-ouro-prata",
+    },
+    {
+      name: "Verde, Ouro & Prata",
+      image: "/images/poedagar-prestige-verde-ouro-prata.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/cyc8105-poedagar-prestige---verde-ouro-e-prata",
+    },
+    {
+      name: "Preto, Ouro & Prata",
+      image: "/images/poedagar-prestige-preto-ouro-prata.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/xct1308-poedagar-prestige---preto-ouro-e-prata",
+    },
+    {
+      name: "Ouro",
+      image: "/images/poedagar-prestige-ouro.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/plm6469-poedagar-prestige---ouro",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-prestige-branco.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/lrp7860-poedagar-prestige---branco",
+    },
+    {
+      name: "Azul",
+      image: "/images/poedagar-prestige-azul.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/bva6840-poedagar-prestige---azul",
+    },
+    {
+      name: "Verde",
+      image: "/images/poedagar-prestige-verde.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/wfj4380-poedagar-prestige---verde",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-prestige-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/crf6329-poedagar-prestige---preto",
+    },
+    {
+      name: "All Black",
+      image: "/images/poedagar-prestige-all-black.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/ybf9740-poedagar-prestige---all-black",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro Hardlex",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "44mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "13mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "22cm",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — adequado para uso diário e contato com água. Não indicado para mergulho.",
+    },
+    {
+      label: "Funções",
+      value:
+        "Cronógrafo, luminosidade noturna e ponteiros luminosos.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
