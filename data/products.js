@@ -1291,6 +1291,91 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-deluxe-old",
+  name: "Poedagar Deluxe Old",
+  price: "R$ 199,00",
+  image: "/images/poedagar-deluxe-old-azul.png",
+  imageAlt:
+    "Relógio Poedagar Deluxe Old azul com pulseira de couro legítimo",
+  shortDescription:
+    "Um clássico de inspiração atemporal, combinando couro legítimo e detalhes sofisticados para um estilo distinto.",
+
+  variants: [
+    {
+      name: "Azul",
+      image: "/images/poedagar-deluxe-old-azul.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/epe1357-poedagar-deluxe-old---azul",
+    },
+    {
+      name: "Azul & Ouro Rosé",
+      image: "/images/poedagar-deluxe-old-azul-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/jjw1012-poedagar-deluxe-old---azul-e-ouro-rose",
+    },
+    {
+      name: "Verde",
+      image: "/images/poedagar-deluxe-old-verde.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/qih8826-poedagar-deluxe-old---verde",
+    },
+    {
+      name: "Verde & Ouro Rosé",
+      image: "/images/poedagar-deluxe-old-verde-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/ljy6816-poedagar-deluxe-old---verde-e-ouro-rose",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-deluxe-old-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/vcs3501-poedagar-deluxe-old---preto",
+    },
+    {
+      name: "Preto & Ouro Rosé",
+      image: "/images/poedagar-deluxe-old-preto-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/etx8834-poedagar-deluxe-old---preto-e-ouro-rose",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-deluxe-old-branco.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/jto3587-poedagar-deluxe-old---branco",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Couro legítimo",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro Hardlex",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "41mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "20cm (ajustável)",
+    },
+    {
+      label: "Marcador de Data",
+      value: "Data automática",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — resistente à água para uso diário. Não indicado para mergulho.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
