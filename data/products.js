@@ -1205,6 +1205,92 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-deluxe-edition",
+  name: "Poedagar Deluxe Edition",
+  price: "R$ 199,00",
+  image: "/images/poedagar-deluxe-edition.png",
+  imageAlt:
+    "Relógio Poedagar Deluxe Edition azul com caixa e pulseira em aço inoxidável",
+  shortDescription:
+    "Um design contemporâneo e sofisticado, com linhas marcantes que equilibram presença e elegância.",
+
+  variants: [
+    {
+      name: "Azul",
+      image: "/images/poedagar-deluxe-edition.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/xnm9576-poedagar-deluxe-edition---azul",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-deluxe-edition-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/buj9399-poedagar-deluxe-edition---preto",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-deluxe-edition-branco.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/bci7582-poedagar-deluxe-edition---branco",
+    },
+    {
+      name: "Verde",
+      image: "/images/poedagar-deluxe-edition-verde.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/yhs2380-poedagar-deluxe-edition---verde",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Formato da Caixa",
+      value: "Quadrado",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro Hardlex",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "40mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "10mm",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "22mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "20cm",
+    },
+    {
+      label: "Fecho",
+      value: "Fecho com botão oculto",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "Resistente a respingos e exposição à chuva leve. Não indicado para mergulho.",
+    },
+    {
+      label: "Funções",
+      value: "Data automática, cronógrafo e ponteiros luminosos.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
