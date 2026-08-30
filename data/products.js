@@ -1376,6 +1376,102 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-deluxe-ice",
+  name: "Poedagar Deluxe Ice",
+  price: "R$ 199,00",
+  image: "/images/poedagar-deluxe-ice-azul.png",
+  imageAlt:
+    "Relógio Poedagar Deluxe Ice azul com caixa e pulseira em aço inoxidável",
+  shortDescription:
+    "Um design marcante e sofisticado, com acabamento inspirado na alta relojoaria e detalhes que elevam sua presença.",
+
+  variants: [
+    {
+      name: "Azul",
+      image: "/images/poedagar-deluxe-ice-azul.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/efj4618-poedagar-deluxe-ice---azul",
+    },
+    {
+      name: "Azul & Ouro Rosé",
+      image: "/images/poedagar-deluxe-ice-azul-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/qje6444-poedagar-deluxe-ice---azul-e-ouro-rose",
+    },
+    {
+      name: "Verde",
+      image: "/images/poedagar-deluxe-ice-verde.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/kie8421-poedagar-deluxe-ice---verde",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-deluxe-ice-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/jjd7832-poedagar-deluxe-ice---preto",
+    },
+    {
+      name: "Preto & Ouro Rosé",
+      image: "/images/poedagar-deluxe-ice-preto-rose.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/mtm4492-poedagar-deluxe-ice---preto-e-ouro-rose",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-deluxe-ice-branco.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/gaa4827-poedagar-deluxe-ice---branco",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável premium",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável premium",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro Hardlex resistente a riscos e impactos",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo de alta precisão",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "40mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "10mm",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "23,5mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "20cm",
+    },
+    {
+      label: "Fecho",
+      value: "Fecho oculto com botão de pressão",
+    },
+    {
+      label: "Função de Data",
+      value: "Exibe o dia do mês",
+    },
+    {
+      label: "Ponteiros",
+      value: "Luminosos para visibilidade em baixa luz",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — resistente a respingos e uso diário. Não indicado para mergulho.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
