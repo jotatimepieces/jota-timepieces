@@ -37,7 +37,7 @@ export const products = [
   {
     slug: "poedagar-signature",
     name: "Poedagar Signature",
-    price: "R$ 149,00",
+    price: "R$ 199,00",
     image: "/images/poedagar-signature.png",
     imageAlt: "Relógio Poedagar Signature com mostrador verde e pulseira de aço inoxidável",
     shortDescription:
