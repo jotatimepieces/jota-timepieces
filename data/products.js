@@ -1487,52 +1487,52 @@ export const products = [
     {
       name: "Azul",
       image: "/images/poedagar-deluxe-king-azul.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/rod9026-poedagar-deluxe-king---azul",
     },
     {
       name: "Cinza",
       image: "/images/poedagar-deluxe-king-cinza.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/bsk9081-poedagar-deluxe-king---cinza",
     },
     {
       name: "Branco",
       image: "/images/poedagar-deluxe-king-branco.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/ieu3890-poedagar-deluxe-king---branco",
     },
     {
       name: "Branco & Ouro",
       image: "/images/poedagar-deluxe-king-branco-ouro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/gef6474-poedagar-deluxe-king---branco-e-ouro",
     },
     {
       name: "Preto",
       image: "/images/poedagar-deluxe-king-preto.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/ohk2176-poedagar-deluxe-king---preto",
     },
     {
       name: "Preto & Ouro",
       image: "/images/poedagar-deluxe-king-preto-ouro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/wob2399-poedagar-deluxe-king---preto-e-ouro",
     },
     {
       name: "Azul & Ouro",
       image: "/images/poedagar-deluxe-king-azul-ouro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/tig5629-poedagar-deluxe-king---azul-e-ouro",
     },
     {
       name: "Verde & Ouro",
       image: "/images/poedagar-deluxe-king-verde-ouro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/vtb3803-poedagar-deluxe-king---verde-e-ouro",
     },
     {
       name: "Ouro",
       image: "/images/poedagar-deluxe-king-ouro.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/mqm6759-poedagar-deluxe-king---ouro",
     },
     {
       name: "All Black",
       image: "/images/poedagar-deluxe-king-all-black.png",
-      checkoutUrl: "",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/fss5301-poedagar-deluxe-king---all-black",
     },
   ],
 
