@@ -1472,6 +1472,126 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-deluxe-king",
+  name: "Poedagar Deluxe King",
+  price: "R$ 249,00",
+  image: "/images/poedagar-deluxe-king-azul.png",
+  imageAlt:
+    "Relógio Poedagar Deluxe King azul com caixa e pulseira em aço inoxidável",
+  shortDescription:
+    "Um design marcante e sofisticado, com linhas precisas que unem presença, funcionalidade e elegância.",
+
+  variants: [
+    {
+      name: "Azul",
+      image: "/images/poedagar-deluxe-king-azul.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Cinza",
+      image: "/images/poedagar-deluxe-king-cinza.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Branco",
+      image: "/images/poedagar-deluxe-king-branco.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Branco & Ouro",
+      image: "/images/poedagar-deluxe-king-branco-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto",
+      image: "/images/poedagar-deluxe-king-preto.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Preto & Ouro",
+      image: "/images/poedagar-deluxe-king-preto-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Azul & Ouro",
+      image: "/images/poedagar-deluxe-king-azul-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Verde & Ouro",
+      image: "/images/poedagar-deluxe-king-verde-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "Ouro",
+      image: "/images/poedagar-deluxe-king-ouro.png",
+      checkoutUrl: "",
+    },
+    {
+      name: "All Black",
+      image: "/images/poedagar-deluxe-king-all-black.png",
+      checkoutUrl: "",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Movimento",
+      value: "Quartzo de alta precisão",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Formato da Caixa",
+      value: "Quadrado",
+    },
+    {
+      label: "Material da Pulseira",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material do Visor",
+      value: "Hardlex resistente",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "40mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "10mm",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "26mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "23cm",
+    },
+    {
+      label: "Fecho",
+      value: "Oculto com botão de pressão",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — resistente a respingos e uso diário. Não indicado para mergulho.",
+    },
+    {
+      label: "Peso",
+      value: "Aproximadamente 135g",
+    },
+    {
+      label: "Funções",
+      value: "Calendário, exibição semanal e ponteiros luminosos.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
