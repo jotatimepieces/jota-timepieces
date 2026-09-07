@@ -1592,6 +1592,92 @@ export const products = [
     },
   ],
 },
+
+{
+  slug: "poedagar-montelux",
+  name: "Poedagar Montelux",
+  price: "R$ 199,00",
+  image: "/images/poedagar-montelux-branco-preto.png",
+  imageAlt:
+    "Relógio Poedagar Montelux branco e preto com pulseira de silicone premium",
+  shortDescription:
+    "Um design geométrico e contemporâneo que combina contraste, presença e funcionalidade em uma peça marcante.",
+
+  variants: [
+    {
+      name: "Branco & Preto",
+      image: "/images/poedagar-montelux-branco-preto.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/lfi7285-poedagar-montelux---branco-e-preto",
+    },
+    {
+      name: "Azul & Prata",
+      image: "/images/poedagar-montelux-azul-prata.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/dbq4370-poedagar-montelux---azul-e-prata",
+    },
+    {
+      name: "Preto & Dourado",
+      image: "/images/poedagar-montelux-preto-dourado.png",
+      checkoutUrl: "https://loja.infinitepay.io/jxx/iol7028-poedagar-montelux---preto-e-dourado",
+    },
+  ],
+
+  specs: [
+    {
+      label: "Material da Pulseira",
+      value: "Silicone premium",
+    },
+    {
+      label: "Material da Caixa",
+      value: "Aço inoxidável",
+    },
+    {
+      label: "Material do Visor",
+      value: "Vidro Hardlex",
+    },
+    {
+      label: "Formato da Caixa",
+      value: "Geométrico / Quadrado",
+    },
+    {
+      label: "Movimento",
+      value: "Quartzo de alta precisão",
+    },
+    {
+      label: "Diâmetro da Caixa",
+      value: "42mm",
+    },
+    {
+      label: "Espessura da Caixa",
+      value: "12mm",
+    },
+    {
+      label: "Largura da Pulseira",
+      value: "26mm",
+    },
+    {
+      label: "Comprimento da Pulseira",
+      value: "24cm",
+    },
+    {
+      label: "Peso",
+      value: "88g",
+    },
+    {
+      label: "Fecho",
+      value: "Fivela",
+    },
+    {
+      label: "Resistência à Água",
+      value:
+        "3ATM / 30 metros — resistente a respingos e uso diário. Não indicado para mergulho.",
+    },
+    {
+      label: "Funções",
+      value:
+        "Cronógrafo funcional, calendário integrado, indicador de 24 horas, ponteiros luminosos, marcadores luminosos e exibição de horas, minutos e segundos.",
+    },
+  ],
+},
 ];
 
 export function getProductBySlug(slug) {
